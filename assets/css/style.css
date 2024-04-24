@@ -1338,3 +1338,30 @@ body.nav-active { overflow: hidden; }
   }
 
 }
+
+.whatsapp-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.whatsapp-message {
+  margin-left: 10px;
+}
+
+.whatsapp-btn {
+  background-color: #25D366; /* WhatsApp green color */
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 50%; /* Make it round */
+  cursor: pointer;
+  width: 50px; /* Set width and height for consistency */
+  height: 50px;
+  display: flex; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  align-items: center;
+  z-index: 2; /* Set z-index higher than message */
+}

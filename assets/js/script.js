@@ -111,3 +111,8 @@ window.addEventListener("resize", function () {
 
   moveSliderItem();
 });
+document.querySelector('.whatsapp-btn').addEventListener('click', function() {
+  // Replace "XXXXXXXXXXX" with your WhatsApp number or group ID
+  var whatsappLink = 'https://wa.me/+212655839886'; 
+  window.open(whatsappLink);
+});
