@@ -21,29 +21,29 @@
    */
 
   /** Background colors */
-  --bg-wild-blue-yonder: hsla(216, 33%, 68%, 1);
-  --bg-carolina-blue: hsla(199, 89%, 49%, 1);
-  --bg-prussian-blue: hsla(216, 33%, 20%, 1);
-  --bg-oxford-blue: hsla(222, 44%, 13%, 1);
-  --bg-oxford-blue-2: hsla(222, 47%, 11%, 1);
+  --bg-wild-blue-yonder: rgb(255, 255, 255);
+  --bg-carolina-blue: rgb(255, 255, 255);
+  --bg-prussian-blue: rgb(27, 27, 27);
+  --bg-oxford-blue: rgb(43, 42, 42);
+  --bg-oxford-blue-2: rgb(46, 46, 46);
 
   /** Text colors */
   --text-white: hsla(0, 0%, 100%, 1);
   --text-alice-blue: hsla(216, 100%, 95%, 1);
-  --text-columbia-blue: hsla(199, 69%, 84%, 1);
-  --text-wild-blue-yonder: hsla(216, 33%, 68%, 1);
-  --text-carolina-blue: hsla(199, 89%, 49%, 1);
-  --text-shadow-blue: hsla(217, 24%, 59%, 1);
-  --text-slate-gray: hsla(217, 17%, 48%, 1);
+  --text-columbia-blue: rgb(255, 255, 255);
+  --text-wild-blue-yonder: rgb(255, 255, 255);
+  --text-carolina-blue: rgb(227, 252, 0);
+  --text-shadow-blue: rgb(255, 255, 255);
+  --text-slate-gray: rgb(255, 255, 255);
 
   /** Gradient colors */
-  --gradient-1: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%);
-  --gradient-2: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea);
-  --gradient-3: linear-gradient(0deg, #000d1a, transparent);
+  --gradient-1: linear-gradient(90deg, #fbff00, #fbff00 51%);
+  --gradient-2: linear-gradient(90deg, #9e9e9e, #b3b3b3 51%, #969696);
+  --gradient-3: linear-gradient(0deg, #ffffff, transparent);
 
   /** Border colors */
-  --border-wild-blue-yonder: hsla(216, 33%, 68%, 1);
-  --border-prussian-blue: hsla(216, 33%, 20%, 1);
+  --border-wild-blue-yonder: rgb(255, 255, 255);
+  --border-prussian-blue: rgb(255, 255, 255);
   --border-white: hsl(0, 0%, 100%);
   --border-white-alpha-15: hsla(0, 0%, 100%, 0.15);
 
@@ -83,8 +83,8 @@
    * BOX SHADOW
    */
 
-  --shadow-1: 0 8px 20px 0 hsla(0, 0%, 0%, 0.05);
-  --shadow-2: 0px 3px 20px hsla(180, 90%, 43%, 0.2);
+  --shadow-1: 0 8px 20px 0 hsla(69, 100%, 50%, 0.05);
+  --shadow-2: 0px 3px 20px hsla(61, 100%, 50%, 0.2);
 
   /**
    * BORDER RADIUS
